@@ -1,0 +1,21 @@
+:root {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Playfair Display SC', serif;
+
+
+--blue-hard: #061835;
+--grey-hard:#7A7A7A;
+--grey: #B6B6B6;
+--blue-font: #0A224A;
+--grey-light: #D9D9D9;
+--light-blue: #F7FAFF;
+--white: #FFFFFF;
+--red: #E74A3B;
+
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
