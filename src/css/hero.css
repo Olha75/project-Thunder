@@ -59,3 +59,29 @@ margin-bottom: 28px;}
 
 
 
+    @media (min-width: 429px) {
+        .hero { background-image:
+      url(/img/hero/hero-tablet-1x.jpg);
+          } }
+
+          @media screen and (min-width: 768px) and (max-width:1157px) {
+            .container {
+              max-width: 768px;
+            }
+
+
+            .hero {
+                background-image: url(/img/hero/hero-tablet-1x.jpg);
+                }
+            
+                @media (min-width: 769px) {
+                  .hero { background-image: 
+                url(/img/hero/hero-tablet-1x.jpg);
+                    } }
+                
+            @media (min-device-pixel-ratio:2), 
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+              .business{ background-image:
+              url(/img/hero/hero-tablet-2x.jpg);}}
+              }
