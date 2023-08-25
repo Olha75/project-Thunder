@@ -1,0 +1,61 @@
+.hero{
+background-image: 
+  url(/img/hero/hero-mob-1x.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 140px;
+  padding-bottom: 313px;
+  display: block;
+  margin: 0 auto;
+  /* align-items: center; */
+}
+
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .hero { background-image:
+  url(/img/hero/hero-mob-2x.jpg);
+}}
+
+
+
+.hero-title
+{width: 287px;
+    color: var(--blue-font, #0A224A);
+    font-family: Playfair Display SC, serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 14px;
+}
+
+.hero-text{
+    /* width: 345px; */
+        color: var(--blue-font, #0A224A);
+        font-size: 16px;
+        line-height: 1.5;
+       text-align: left;
+margin-bottom: 28px;}
+
+.hero-btn{
+    color:var(--white, #ffffff);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    cursor: pointer;
+    background:var(--blue-font, #0A224A);
+    margin-right: auto;
+    border: none;
+    padding: 12px 65px;
+    min-width: 224px;
+    display: block;
+    justify-items: center;
+    }
+
+
+
