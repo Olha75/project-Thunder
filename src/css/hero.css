@@ -57,12 +57,19 @@ margin-bottom: 28px;}
     justify-items: center;
     }
 
-
-
     @media (min-width: 429px) {
         .hero { background-image:
       url(/img/hero/hero-tablet-1x.jpg);
           } }
+
+
+
+
+
+
+
+
+
 
           @media screen and (min-width: 768px) and (max-width:1157px) {
             .container {
@@ -72,7 +79,11 @@ margin-bottom: 28px;}
 
             .hero {
                 background-image: url(/img/hero/hero-tablet-1x.jpg);
-                }
+                background-position: top 64px right 0;
+            padding-top: 3px;
+        padding-bottom: 644px;
+    padding-left: 32px;
+padding-right: 29px;}
             
                 @media (min-width: 769px) {
                   .hero { background-image: 
@@ -84,4 +95,9 @@ margin-bottom: 28px;}
             (min-resolution: 2dppx) {
               .business{ background-image:
               url(/img/hero/hero-tablet-2x.jpg);}}
-              }
+         
+         
+         
+         .hero-title {margin-bottom: 410px;
+
+         }
