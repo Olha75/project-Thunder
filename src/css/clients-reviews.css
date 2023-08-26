@@ -1,7 +1,7 @@
 
 .clients-reviews {
     width: 100%;
-    background: black;
+    background: var(--light-blue, #F7FAFF);;
 }
 .cr-title {
     color: var(--blue-font, #0A224A);
