@@ -1,49 +1,55 @@
 .price-section {
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 64px 0;
   background: #fff;
 }
 
-.price-title {
-  visibility: hidden;
-}
-
 .price-container {
-  margin-top: 64px;
-  margin-bottom: 64px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .price-list {
-  display: flex;
+  /* display: flex;
   width: 100%;
+  flex-direction: column; */
   max-width: 343px;
-  flex-direction: column;
   border: 1px solid var(--blue-font);
   border-left: none;
   border-right: none;
+  margin: 0 auto;
 }
 
 .price-container-list {
-  border: 1px solid var(--blue-font);
-  border-left: none;
-  border-right: none;
-  height: 102px;
-  text-align: center;
-}
-
-.price-list-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 42px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+
+  /* height: 102px; */
+  /* text-align: center;
+  padding: 0; */
+}
+
+.price-list > :not(:last-child) {
+  border: 1px solid var(--blue-font);
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+.price-list-item {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  /* height: 42px; */
+  padding-top: 30px;
+  padding-bottom: 30px;
+
   /* width: 100%; */
 }
 
 .price-mebles-text {
-  color: var(--blue-font);
-  font-family: var(--primary-font);
+  /* color: var(--blue-font); */
+  /* font-family: var(--primary-font); */
   font-size: 28px;
   line-height: 1.5;
   text-transform: uppercase;
