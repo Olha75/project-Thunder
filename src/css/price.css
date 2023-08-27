@@ -3,11 +3,6 @@
   background: #fff;
 }
 
-.price-container {
-  padding-left: 16px;
-  padding-right: 16px;
-}
-
 .price-list {
   max-width: 343px;
   border: 1px solid var(--blue-font);
@@ -28,9 +23,6 @@
   border-left: none;
   border-right: none;
   border-top: none;
-}
-
-.price-list-item {
 }
 
 .price-mebles-text {
@@ -69,11 +61,6 @@
     padding: 100px 0;
   }
 
-  .price-container {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-
   .price-list {
     max-width: 704px;
   }
@@ -88,11 +75,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .price-container {
-    padding-left: 172px;
-    padding-right: 172px;
-  }
-
   .price-list {
     max-width: 1096px;
   }
