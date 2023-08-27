@@ -1,8 +1,9 @@
 .subscription {
     width: 100%;
+    max-width: 375px;
     background-color: #FFF;
-    padding-top: 64px;
-    padding-bottom: 64px;
+    padding: 64px 0;
+    margin: 0 auto;
 }
 
 .sub-container {
@@ -11,22 +12,18 @@
 
 .sub-title {
     color: var(--blue-font, #0A224A);
-        font-family: Roboto;
         font-size: 28px;
-        font-style: normal;
         font-weight: 400;
-        line-height: 42px;
+        line-height: 1.5;
         text-align: center;
         margin-bottom: 20px;
 }
 
 .sub-text {
     color: var(--blue-font, #0A224A);
-        font-family: Roboto;
         font-size: 16px;
-        font-style: normal;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 1.5;
         margin-bottom: 30px;
 }
 
@@ -44,11 +41,9 @@
 }
 .sub-input::placeholder {
     color: var(--grey, #D9D9D9);
-        font-family: Roboto;
         font-size: 16px;
-        font-style: normal;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 1.5;
 }
 
 .sub-checkbox {
@@ -60,11 +55,9 @@
 
 .sub-agree {
     color: #7A7A7A;
-        font-family: Roboto;
         font-size: 16px;
-        font-style: normal;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 1.5;
 }
 
 .checkbox-container {
@@ -74,45 +67,48 @@
 
 .sub-button {
     color: var(--white, #FFF);
-        font-family: Roboto;
         font-size: 16px;
-        font-style: normal;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 1.5;
         background: var(--blue-font, #0A224A);
         width: 224px;
         height: 50px;
+        margin-bottom: 30px;
 }
 
 .sub-img {
     width: 343px;
     height: 300px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
+
 @media screen and (min-width: 1px) and (max-width: 374px) {
     .sub-input {
         width: 100%;
     }
 }
 @media screen and (min-width: 375px) {
-
+    
 }
 @media screen and (min-width: 768px) {
+    #sub-image {
+            content: url(./images/subscription/subscribe-768.jpg);
+        }
     .subscription {
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding: 100px 32px;
+        max-width: 768px;
     }
     .sub-container {
-        padding: 0 32px;
     }
     .sub-title {
         text-align: start;
         font-size: 32px;
-        line-height: 45px;
+        line-height: 1.41;
         margin-bottom: 30px;
     }
     .sub-text {
         font-size: 18px;
-        line-height: 27px;
+        line-height: 1.5;
         width: 536px;
         margin-bottom: 20px;
     }
@@ -121,20 +117,26 @@
     }
     .sub-agree {
         font-size: 18px;
-        line-height: 27px;
+        line-height: 1.5;
     }
     .sub-img {
         width: 704px;
         height: 396px;
     }
+    .sub-button {
+        margin-bottom: 64px;
+    }
 }
 @media screen and (min-width: 1440px) {
+    #sub-image {
+            content: url(./images/subscription/subscribe-1440.jpg);
+        }
     .subscription {
-        padding-bottom: 86px;
+        padding: 100px 172px;
+        max-width: 1440px;
     }
-    .sub-container {
+    .container {
         display: flex;
-        padding: 0 172px;
         gap: 100px;
     }
     .sub-form {
