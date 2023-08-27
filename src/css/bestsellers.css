@@ -1,7 +1,11 @@
 
 .bestsellers-section{
 background-color: #fff;
-padding-bottom: 64px;
+padding-top: 64px;
+margin-bottom: 64px;
+}
+.container{
+width: 343px ;
 }
 .container>.bestsellers-container-div{
 background-color: #fff;
@@ -22,10 +26,9 @@ row-gap: 30px;
 
 .bestsellers-slogan{
 display: flex;
-padding-top: 64px;
 justify-content: center;
-padding-bottom: 21px;
 color: var(--blue-font, seA224A);
+padding-bottom: 21px;
 font-size: 32px;
 font-weight: 400;
 line-height: 45px;
@@ -36,9 +39,9 @@ width: 343px;
 height: 193px;
 }
 .bestsellers-list{
-display: inline;
+display: flex;
+flex-direction: column;
 text-decoration: none;
-gap: 30px;
 max-width: 1096px;
 justify-content: center;
 align-items: center;
@@ -54,39 +57,56 @@ display: none;
 color: var(--blue-font, #0A224A);
 font-size: 18px;
 font-weight: 400;
-line-height: 27px;
+line-height: 1.5;
 padding-top: 15px;
 }
 .bestsellers-text{
 color: var(--blue-font, #0A224A);
 font-size: 18px;
 font-weight: 700;
-line-height: 27px;
+line-height: 1.5;
 padding-top: 10px;
 }
-@media screen and (min-width:320px){
 .bestsellers-img-mob{
-display: none;
+display: flex;
+flex-direction: column;
 }
 .bestsellers-img-tablet{
-display: inline;
+display: none;
 }
 .bestsellers-img-desktop{
 display: none;
 }
+.bestsellers-mob-none{
+display: none;
 }
-@media screen and (min-width:768px)  {
+@media screen and  (max-width:375px){
+.container{
+width: 343px ;
+}
+.bestsellers-img-mob{
+display: flex;
+flex-direction: column;
+}
+.bestsellers-img-mob{
+background-image: 
+url('../images/bestsellers/retina-mob-1.jpg'),
+url('../images/bestsellers/retina-mob-2.jpg'),
+url('../images/bestsellers/retina-mob-3.jpg');
+}
+}
+@media screen and (min-width:768px) {
 .container{
 width: 706px;
 padding: 0;
 margin: auto;
 }
 .bestsellers-section{
-padding-bottom: 100px;
+padding-top: 100px;
+margin-bottom: 100px;
 }
 .bestsellers-slogan{
 display: flex;
-padding-top: 100px;
 justify-content: center;
 padding-bottom: 30px;
 color: var(--blue-font, seA224A);
@@ -94,6 +114,9 @@ font-size: 32px;
 font-weight: 400;
 line-height: 45px;
 text-transform: uppercase;    
+}
+.bestsellers-text-img{
+font-size: 18px;
 }
 .bestsellers-img-div{
 margin-left: auto;
@@ -107,16 +130,29 @@ flex-direction: row;
 flex-wrap: wrap;
 row-gap: 32px;
 }
-
 .bestsellers-img-mob{
 display: none; 
 }
-
+.best-title{
+display: none;
+}
 .bestsellers-img-tablet{
-display: inline;
+display: flex;
 }
 .bestsellers-img-desktop{
 display: none;
+}
+.bestsellers-mob-none{
+display: flex;
+gap: 32px;
+}
+.bestsellers-img-tablet{
+background-image: 
+url('../images/bestsellers/retina-tablet-1.jpg'),
+url('../images/bestsellers/retina-tablet-2.jpg'),
+url('../images/bestsellers/retina-tablet-3.jpg'),
+url('../images/bestsellers/retina-tablet-4.jpg'),
+url('../images/bestsellers/retina-tablet-5.jpg');
 }
 }
 @media screen and (min-width:1440px){
@@ -126,14 +162,14 @@ padding: 0;
 margin: auto;
 }
 .bestsellers-section{
-padding-bottom: 100px;
+padding-top: 100px;
+margin-bottom: 100px;
 display: flex;
 align-items: center;
 justify-content: center;
 }
 .bestsellers-slogan{
 display: flex;
-padding-top: 100px;
 justify-content: center;
 padding-bottom: 30px;
 color: var(--blue-font, seA224A);font-size: 32px;
@@ -151,6 +187,7 @@ flex-wrap: wrap;
 
 .bestsellers-list{
 display: flex;
+flex-direction: row;
 text-decoration: none;
 gap: 24px;
 justify-content: center;
@@ -159,28 +196,33 @@ align-items: stretch;
 .bestsellers-img-div{
 padding: 0;
 }
-.bestsellers-img-mob{
-display: none;
-}
-
 .bestsellers-img{
 display: flex;
 width: 258px;
 }
-
 .best-title{
 max-width: 536px;
 max-height: 489px;
 }
 .bestsellers-img-desktop{
 display: flex;
-}
 
+}
 .bestsellers-img-tablet{
 display: none;
 }
-
 .bestsellers-img-mob{
 display: none;
+}
+.bestsellers-mob-none{
+display: flex;
+}
+.bestsellers-img-desktop{
+background-image: 
+url('../images/bestsellers/retina-desktop-1.jpg'),
+url('../images/bestsellers/retina-desktop-2.jpg'),
+url('../images/bestsellers/retina-desktop-3.jpg'),
+url('../images/bestsellers/retina-desktop-4.jpg'),
+url('../images/bestsellers/retina-desktop-5.jpg');
 }
 }
