@@ -120,14 +120,16 @@ margin-bottom: 28px;}
 
     @media screen and (min-width: 1440px)  {
         .container {
-          max-width: 1368px;
+          width: 1344px;
        padding: 0;
-       margin: 0 auto;
-       padding-left: 12px;
-       padding-right: 12px;
+          margin: 0 auto;}}
 
 
-        }
+       /* padding-left: 12px;
+       padding-right: 12px; */
+
+
+        
 
 
         .hero {
@@ -144,7 +146,7 @@ margin-bottom: 28px;}
     
 }
         
-            @media (max-width: 799px) {
+            @media (min-width: 1440px) {
               .hero { background-image: 
             url(/images/hero/hero-desktop-1x.jpg);
                 } }
@@ -158,7 +160,7 @@ margin-bottom: 28px;}
         
         .hero-title{
             width: 648px;
-font-family: Playfair Display;
+font-family: Playfair Display, serif;
 font-size: 50px;
 margin-bottom: 246px;
 
@@ -176,7 +178,7 @@ line-height: 1.5;
 
     .hero-btn{
         margin-left: auto;
-        margin-right: 80px;
+        margin-right: 88px;
         font-size: 18px;
     font-weight: 500;
     line-height: 1.3;
@@ -184,8 +186,8 @@ line-height: 1.5;
     min-width: 224px;
     display: block;
     justify-items: center;
-    }
-    }
+      }
+    
         
         
         
