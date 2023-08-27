@@ -27,7 +27,7 @@
 .mob-logo-icon {
   width: 100px;
   height: 16px;
-  color: #0a224a;
+  fill: var(--blue-font, #0a224a);
 }
 
 .mob-menu {
@@ -130,7 +130,6 @@
     gap: 30px;
   }
   .nav-menu-item {
-    color: var(--blue-font, #0a224a);
     font-size: 18px;
     line-height: 1.5em; /* 150% */
   }
