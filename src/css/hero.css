@@ -67,7 +67,7 @@ margin-bottom: 28px;}
 
 /*----------- TABLET -----------*/
 
-          @media screen and (min-width: 768px) and (max-width:1415px) {
+          @media screen and (min-width: 768px) and (max-width:1439px) {
             .container {
               max-width: 768px;
            padding: 0;
@@ -118,9 +118,9 @@ margin-bottom: 28px;}
 
 
 
-    @media screen and (min-width: 1416px)  {
+    @media screen and (min-width: 1440px)  {
         .container {
-          max-width: 1344px;
+          max-width: 1368px;
        padding: 0;
        margin: 0 auto;
        padding-left: 12px;
