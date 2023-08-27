@@ -34,6 +34,9 @@
   position: fixed;
   width: 100%;
   height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -60,10 +63,13 @@
   background: var(--light-blue, #f7faff);
 }
 .close-menu-icon {
-  display: none;
+  width: 30px;
+  height: 30px;
+  stroke: #0a224a;
 }
 .close-menu-btn {
   border-style: none;
+  background: none;
 }
 .mob-menu-list {
   display: flex;
