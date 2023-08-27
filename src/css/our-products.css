@@ -1,0 +1,42 @@
+/* .test {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: solid 2px red;
+  overflow: hidden;
+}
+
+.inside {
+  position: absolute;
+  z-index: -2;
+
+  width: 200px;
+  height: 200px;
+  border: solid 2px rgb(29, 14, 185);
+  top: 50%;
+  left: 50%;
+  background-color: aqua;
+
+  transform: translate(-50%, -50%);
+} */
+.our-prod-section {
+  padding: 64px 0;
+}
+
+.our-prod-container {
+}
+
+.our-prod-title {
+  text-align: center;
+  color: var(--blue-font);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.our-prod-list {
+  display: flex;
+  gap: 24px;
+}
