@@ -1,5 +1,5 @@
 .about {
-    background-color: fffffff;
+    background-color: #ffffff;
 }
 
 .about-content {
@@ -27,11 +27,7 @@
   }
 
   .about-signature-text {
-    color: var(--blue-font);
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 1.5;
   }
 
@@ -40,22 +36,15 @@
   }
 
   .title {
-    color: var(--blue-font);
-    font-family: Roboto;
     font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 1.5;
     text-transform: uppercase;
+    font-style: normal;
   }
 
   .about-text {
-    color: var(--blue-font);
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
+     line-height: 1.5;
   }
 
   .about-stat-list {
@@ -80,24 +69,16 @@
   .statistic {
     width: 170px;
     height: 75px;
-    color: var(--blue-font);
     text-align: center;
-    font-family: Roboto;
     font-size: 50px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 1.5;
     text-transform: uppercase;
   }
 
   .statistic-content {
     width: 170px;
-    color: var(--blue-font);
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 1.5;
   }
 
@@ -118,7 +99,7 @@
       width: 700px;
       margin: 0 auto;
       padding: 36px 64px;
-      margin-bottom: 30px;
+    
     }
     .title {
       font-size: 32px;
@@ -150,11 +131,14 @@
       flex-wrap: nowrap;
       justify-content: space-between;
       align-items: center;
+      padding: 100px 0;
     }
     .about-content {
-        padding: 36px 69px 34px 69px;
-        margin: 20px auto;
+   
+        padding-top: 36px;
+        padding-bottom: 34px;
         max-width: 760px;
+        margin-bottom: 0 auto;
     }
     .title {
       font-size: 32px;
