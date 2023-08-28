@@ -1,7 +1,7 @@
 
 .clients-reviews {
-    width: 100%;
-    max-width: 375px;
+    /* width: 100%; */
+    /* max-width: 375px; */
     background: var(--light-blue, #F7FAFF);;
     padding: 36px 0;
     margin: 0 auto;
@@ -16,7 +16,7 @@
 }
 .clients-container {
     display: flex;
-    padding: 0 16px;
+    /* padding: 0 16px; */
     justify-content: center;
 }
 .cr-container {
@@ -34,12 +34,12 @@
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 .cr-content {
-    padding: 0 24px;
+    padding: 24px 24px;
 }
 .cr-info {
     display: flex;
     margin-bottom: 24px;
-    margin-top: 24px;
+    /* margin-top: 24px; */
 }
 .cr-icon {
     margin-right: 14px;
@@ -47,22 +47,22 @@
 .client-name {
     color: var(--blue-font, #0A224A);
         font-size: 18px;
-        font-style: normal;
+        /* font-style: normal; */
         font-weight: 700;
         line-height: 1.77;
 }
 .client-date {
     color: var(--blue-font, #0A224A);
         font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
+        /* font-style: normal;
+        font-weight: 400; */
         line-height: 1.28;
 }
 .client-recall {
     color: var(--blue-font, #0A224A);
         font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
+        /* font-style: normal;
+        font-weight: 400; */
         line-height: 1.43;
         /* width: 296px;
         height: 110px; */
@@ -72,7 +72,7 @@
         justify-content: center;
     }
     .cr-container {
-        width: 100%;
+        /* width: 100%; */
     }
     .cr-info {
         margin-bottom: 10px;
@@ -89,7 +89,7 @@
 @media screen and (min-width: 375px) {
     .client-recall {
         width: 296px;
-        height: 110px;
+        /* height: 110px; */
     }
 }
 @media screen and (min-width: 1px) and (max-width:767px) {
@@ -104,11 +104,11 @@
 }
 @media screen and (min-width: 768px) {
     .clients-reviews {
-        max-width: 768px;
+        /* max-width: 768px; */
     }
     .clients-container {
         gap: 16px;
-        padding: 0 32px;
+        /* padding: 0 32px; */
     }
     .cr-container {
         height: 319px;
@@ -127,7 +127,7 @@
     }
     .cr-info {
         margin-bottom: 14px;
-        margin-top: 24px;
+        /* margin-top: 24px; */
     }
     .cr-title {
         font-size: 32px;
@@ -140,28 +140,30 @@
 }
 }
 @media screen and (min-width: 1440px) {
-    
+    .container {
+        padding: 0 60px;
+    }
     .clients-reviews {
         padding: 60px 0;
-        max-width: 1440px;
+        /* max-width: 1440px; */
     }
     .clients-container {
         gap: 24px;
-        padding: 0 60px;
+        /* padding: 0 60px; */
     }
     .cr-container {
         width: 424px;
         height: 306px;
     }
     .cr-content {
-        padding: 0 32px;
+        /* padding: 32px 32px; */
     }
     .cr-info {
         margin-bottom: 16px;
-        margin-top: 32px;
+        /* margin-top: 32px; */
     }
     .client-recall {
         width: 360px;
-        height: 161px;
+        /* height: 161px; */
     }
 }
