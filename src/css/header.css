@@ -11,7 +11,7 @@
 .logo-icon {
   width: 100px;
   height: 16px;
-  stroke: #0a224a;
+  fill: var(--blue-font, #0a224a);
 }
 .nav-menu {
   display: flex;
@@ -42,6 +42,7 @@
   display: flex;
   flex-direction: column;
   overflow: auto;
+  transition: left 0.3s ease;
 }
 .mob-menu-item {
   color: var(--blue-font, #0a224a);
@@ -57,7 +58,7 @@
 .mob-top-section {
   width: 100%;
   display: flex;
-  padding: 28px 16px;
+  padding: 28px;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 112px;
@@ -86,6 +87,11 @@
     max-width: 375px;
     margin: 0 auto;
   }
+  .mob-top-section {
+    max-width: 375px;
+    margin: 0 auto;
+    margin-bottom: 112px;
+  }
 }
 @media screen and (min-width: 768px) {
   .nav-container {
@@ -110,6 +116,7 @@
   .logo-icon {
     width: 127px;
     height: 16px;
+    fill: var(--blue-font, #0a224a);
   }
   .mob-menu-list {
     display: flex;
@@ -123,6 +130,12 @@
   .close-menu-btn {
     width: 40px;
     height: 40px;
+  }
+  .mob-top-section {
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
   }
 }
 @media screen and (min-width: 1440px) {
