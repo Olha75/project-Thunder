@@ -147,6 +147,12 @@ justify-content: center;}
     .title {
       font-size: 32px;
       line-height: 1.41;
+      color: var(--blue-font, #0A224A);
+font-family: Roboto;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+text-transform: uppercase;
     }
     .about-text {
       font-size: 18px;
