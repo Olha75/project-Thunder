@@ -1,19 +1,22 @@
 
 .clients-reviews {
-    width: 100%;
+    /* width: 100%; */
+    /* max-width: 375px; */
     background: var(--light-blue, #F7FAFF);;
+    padding: 36px 0;
+    margin: 0 auto;
 }
 .cr-title {
     color: var(--blue-font, #0A224A);
         font-size: 28px;
-        font-weight: 400;
-        line-height: 42px;
+        line-height: 1.5;
         text-align: center;
-        padding: 36px 0 30px 0;
+        margin-bottom: 30px;
+        font-weight: 400;
 }
 .clients-container {
     display: flex;
-    padding: 0 16px;
+    /* padding: 0 16px; */
     justify-content: center;
 }
 .cr-container {
@@ -21,15 +24,22 @@
     background: var(--white, #FFF);
     height: 230px;
     width: 343px;
-    margin-bottom: 36px;
+    /* padding: 0 24px; */
+}
+.clients-image {
+    margin-right: 14px;
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 .cr-content {
-    padding: 0 24px;
+    padding: 24px 24px;
 }
 .cr-info {
     display: flex;
     margin-bottom: 24px;
-    padding-top: 24px;
+    /* margin-top: 24px; */
 }
 .cr-icon {
     margin-right: 14px;
@@ -37,23 +47,23 @@
 .client-name {
     color: var(--blue-font, #0A224A);
         font-size: 18px;
-        font-style: normal;
+        /* font-style: normal; */
         font-weight: 700;
-        line-height: 32px;
+        line-height: 1.77;
 }
 .client-date {
     color: var(--blue-font, #0A224A);
         font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 18px;
+        /* font-style: normal;
+        font-weight: 400; */
+        line-height: 1.28;
 }
 .client-recall {
     color: var(--blue-font, #0A224A);
         font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 20px;
+        /* font-style: normal;
+        font-weight: 400; */
+        line-height: 1.43;
         /* width: 296px;
         height: 110px; */
 }
@@ -62,18 +72,24 @@
         justify-content: center;
     }
     .cr-container {
-        width: 100%;
+        /* width: 100%; */
     }
     .cr-info {
         margin-bottom: 10px;
     }
     .client-name {
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1.71;
     }
     .cr-recall {
         font-size: 10px;
-        line-height: 16px;
+        line-height: 1.6;
+    }
+}
+@media screen and (min-width: 375px) {
+    .client-recall {
+        width: 296px;
+        /* height: 110px; */
     }
 }
 @media screen and (min-width: 1px) and (max-width:767px) {
@@ -87,47 +103,67 @@
     }
 }
 @media screen and (min-width: 768px) {
+    .clients-reviews {
+        /* max-width: 768px; */
+    }
     .clients-container {
         gap: 16px;
-        padding: 0 32px;
+        /* padding: 0 32px; */
     }
     .cr-container {
         height: 319px;
     }
     .client-recall {
         font-size: 18px;
-        line-height: 27px;
+        line-height: 1.5;
     }
     .client-name {
         font-size: 20px;
-        line-height: 45px;
+        line-height: 2.25;
     }
     .client-date {
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
     }
     .cr-info {
         margin-bottom: 14px;
+        /* margin-top: 24px; */
     }
     .cr-title {
         font-size: 32px;
-        line-height: 45px;
+        line-height: 1.4;
     }
+    .clients-image {
+    width: 56px;
+    height: 56px;
+    border-radius: 56px;
+}
 }
 @media screen and (min-width: 1440px) {
+    .container {
+        padding: 0 60px;
+    }
+    .clients-reviews {
+        padding: 60px 0;
+        /* max-width: 1440px; */
+    }
     .clients-container {
         gap: 24px;
-        margin: 0 60px;
+        /* padding: 0 60px; */
     }
     .cr-container {
         width: 424px;
-        margin-bottom: 60px;
+        height: 306px;
+    }
+    .cr-content {
+        /* padding: 32px 32px; */
     }
     .cr-info {
         margin-bottom: 16px;
+        /* margin-top: 32px; */
     }
     .client-recall {
         width: 360px;
-        height: 161px;
+        /* height: 161px; */
     }
 }

@@ -68,7 +68,7 @@ margin-bottom: 28px;}
 /*----------- TABLET -----------*/
 
           @media screen and (min-width: 768px) and (max-width:1439px) {
-            .container {
+            .hero .container {
               max-width: 768px;
            padding: 0;
 
@@ -119,7 +119,7 @@ margin-bottom: 28px;}
 
 
     @media screen and (min-width: 1440px)  {
-        .container {
+        .hero .container {
           max-width: 1344px;
       width: 100%;
        padding: 0;
