@@ -60,4 +60,10 @@ body{
     .list {
       list-style-type: none;
     }
-    
+ 
+    .icon-favicon {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      stroke: #0A224A;
+    }
