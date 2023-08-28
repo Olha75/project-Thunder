@@ -129,24 +129,32 @@ justify-content: center;}
     .about {
       max-width: 1323px;
       margin: 0 auto;
+      padding: 100px 0;
     }
     .about-container {
       display: flex;
       flex-wrap: nowrap;
       justify-content: space-between;
       align-items: center;
-      padding: 100px 0;
+      padding: 0 15px;
     }
     .about-content {
    
         padding-top: 36px;
         padding-bottom: 34px;
-        max-width: 760px;
+        /* max-width: 760px; */
         margin-bottom: 0 auto;
     }
     .title {
       font-size: 32px;
       line-height: 1.41;
+      /* color: var(--blue-font, #0A224A);
+font-family: Roboto;
+font-size: 32px;
+font-style: normal;
+font-weight: 400; */
+text-transform: uppercase;
+width: 622px;
     }
     .about-text {
       font-size: 18px;
