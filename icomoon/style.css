@@ -18,3 +18,6 @@ Single-colored icons can be modified like so:
 .icon-favicon {
   width: 1.2451171875em;
 }
+.icon-name {
+  font-size: 32px;
+  fill:#0A224A;}
