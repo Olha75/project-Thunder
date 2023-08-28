@@ -82,6 +82,10 @@
     line-height: 1.5;
   }
 
+  .about-us-picture{
+  display: flex;
+justify-content: center;}
+
   @media screen and (max-width: 374px) {
     .about-content {
       width: 286px;
