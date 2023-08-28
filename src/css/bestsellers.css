@@ -4,13 +4,13 @@ background-color: #fff;
 padding-top: 64px;
 margin-bottom: 64px;
 }
-.container{
+
+.bestsellers-container-div>.container{
 width: 343px ;
-}
-.container>.bestsellers-container-div{
 background-color: #fff;
-display: inline;
+display: flex;
 align-items: center;
+justify-content: center;
 }
 .bestsellers-img-div{
 padding-bottom: 30px;
@@ -81,7 +81,7 @@ display: none;
 display: none;
 }
 @media screen and  (max-width:375px){
-.container{
+ .bestsellers-container-div>.container{
 width: 343px ;
 }
 .bestsellers-img-mob{
@@ -90,9 +90,9 @@ flex-direction: column;
 }
 .bestsellers-img-mob{
 background-image: 
-url('../images/bestsellers/retina-mob-1.jpg'),
-url('../images/bestsellers/retina-mob-2.jpg'),
-url('../images/bestsellers/retina-mob-3.jpg');
+url('/images/bestsellers/retina-mob-1.jpg'),
+url('/images/bestsellers/retina-mob-2.jpg'),
+url('/images/bestsellers/retina-mob-3.jpg');
 }
 }
 @media screen and (min-width:768px) {
@@ -148,11 +148,11 @@ gap: 32px;
 }
 .bestsellers-img-tablet{
 background-image: 
-url('../images/bestsellers/retina-tablet-1.jpg'),
-url('../images/bestsellers/retina-tablet-2.jpg'),
-url('../images/bestsellers/retina-tablet-3.jpg'),
-url('../images/bestsellers/retina-tablet-4.jpg'),
-url('../images/bestsellers/retina-tablet-5.jpg');
+url('/images/bestsellers/retina-tablet-1.jpg'),
+url('/images/bestsellers/retina-tablet-2.jpg'),
+url('/images/bestsellers/retina-tablet-3.jpg'),
+url('/images/bestsellers/retina-tablet-4.jpg'),
+url('/images/bestsellers/retina-tablet-5.jpg');
 }
 }
 @media screen and (min-width:1440px){
@@ -219,10 +219,10 @@ display: flex;
 }
 .bestsellers-img-desktop{
 background-image: 
-url('../images/bestsellers/retina-desktop-1.jpg'),
-url('../images/bestsellers/retina-desktop-2.jpg'),
-url('../images/bestsellers/retina-desktop-3.jpg'),
-url('../images/bestsellers/retina-desktop-4.jpg'),
-url('../images/bestsellers/retina-desktop-5.jpg');
+url('/images/bestsellers/retina-desktop-1.jpg'),
+url('/images/bestsellers/retina-desktop-2.jpg'),
+url('/images/bestsellers/retina-desktop-3.jpg'),
+url('/images/bestsellers/retina-desktop-4.jpg'),
+url('/images/bestsellers/retina-desktop-5.jpg');
 }
 }
