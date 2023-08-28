@@ -31,7 +31,6 @@ ul.our-prod-list > li:first-child {
 .our-prod-img-wrapper {
   overflow: hidden;
   position: relative;
-  border: solid 3px red;
   margin-bottom: 16px;
 
   height: 300px;
