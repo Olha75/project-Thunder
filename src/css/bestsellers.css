@@ -38,18 +38,30 @@
   }
   
   .sellers {
+    width: 343px;
     scroll-margin-top: 88px;
-    padding-top: 100px;
-    margin-bottom: 100px
+    padding-top: 64px;
+    padding-bottom: 64px;
+
   }
   
-  @media screen and (min-width: 375px) {}
+  @media screen and (min-width: 375px) {
+    .sellers {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  }
   
   @media screen and (min-width: 768px) {
     .sellers-title {
       font-size: 32px;
       line-height: 1.41;
       margin-bottom: 30px;
+    }
+
+    .sellers-wrap{
+    max-width: 704px;
+
     }
   
     .sellers-subtitle {
@@ -61,7 +73,9 @@
       font-size: 18px;
       line-height: 1.34;
     }
-  
+    .sellers-card-wrap{
+    width: 476px;
+    }
     .sellers-main-img {
       display: flex;
       justify-content: center;
@@ -71,6 +85,7 @@
       display: flex;
       flex-wrap: wrap;
       gap: 32px;
+
     }
   
     .sellers-item {
@@ -81,7 +96,13 @@
     .hidden {
       display: block;
     }
-  
+    .sellers{
+    width: 720px;
+    margin-right: 32px;
+    margin-left:32px ;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    }
   }
   
   @media screen and (min-width: 1440px) {
@@ -90,7 +111,11 @@
     }
   
     .sellers {
-      scroll-margin-top: 95px
+    padding-top: 100px;
+    padding-bottom: 100px;
+    scroll-margin-top: 95px;
+    align-items: center;
+        
     }
   
     .sellers-main-card,
@@ -114,6 +139,8 @@
     .sellers-list {
       gap: 30px 20px;
       display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
     }
   
     .sellers-item {
