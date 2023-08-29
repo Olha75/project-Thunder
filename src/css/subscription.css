@@ -12,7 +12,6 @@
 .sub-title {
     color: var(--blue-font, #0A224A);
     font-size: 28px;
-    font-weight: 400;
     line-height: 1.5;
     text-align: center;
     margin-bottom: 20px;
@@ -77,6 +76,7 @@
     width: 224px;
     height: 50px;
     margin-bottom: 30px;
+    border: none;
 }
 
 .sub-img {
@@ -99,7 +99,7 @@
 
     .subscription {
         padding: 100px 0;
-        /* max-width: 768px; */
+       
     }
     
     .sub-title {
@@ -144,8 +144,7 @@
 
     .subscription {
         padding: 100px 0;
-        /* max-width: 1440px; */
-    }
+        }
    
     
     .sub-container {
