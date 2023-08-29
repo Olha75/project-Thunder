@@ -4,7 +4,6 @@
   
   }
   
-
   
   .hero .container{
 background-image: 
@@ -17,7 +16,6 @@ background-image:
   display: block;
   margin: 0 auto;
   max-width: 375px;
-  /* align-items: center; */
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -41,7 +39,6 @@ background-image:
 }
 
 .hero-text{
-    /* width: 345px; */
         color: var(--blue-font, #0A224A);
         font-size: 16px;
         line-height: 1.5;
@@ -65,9 +62,7 @@ margin-bottom: 28px;}
 
     .hero-btn:hover,
     .hero-btn:focus{
-      /* font-family: Roboto, sans-serif;
-      text-decoration: none; */
-      background: var(--blue-hard, #061835);
+           background: var(--blue-hard, #061835);
      
     }
 
@@ -84,25 +79,22 @@ margin-bottom: 28px;}
           
 @media screen and (min-width: 768px) and (max-width:1439px) {
   .hero {
-   padding-top: 64px;
+   /* padding-top: 64px; */
    padding-bottom: 100px;}
 
   
             .hero .container {
               max-width: 704px;
            padding: 0;
-
             }
 
 
-            
-        
-        .hero .container {
+         .hero .container {
           background-image: url(/images/hero/hero-tablet-1x.jpg);
           background-position: top 61px right 0;
       /* padding: 64px 32px 100px 32px; */
       padding-top: 61px;
-      padding-bottom: 100px;
+      /* padding-bottom: 100px; */
       max-width: 704px;
       background-size: 100%;}
 
