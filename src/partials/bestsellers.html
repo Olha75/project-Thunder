@@ -1,49 +1,92 @@
-<section class="bestsellers-section">
-    <div class="bestsellers-container-div container">
-      <h3 class="bestsellers-slogan">Bestsellers</h3>
-    <ul class="bestsellers-list">
-        <li class="bestsellers-li">
-        <div class="bestsellers-img-div">
-          <img class="bestsellers-img-mob" src="./images/bestsellers/1-mob.jpg" alt="The modern platform bed" width="343" height="193">
-          <img class="bestsellers-img-tablet" src="./images/bestsellers/1-tabl.jpg" alt="The modern platform bed" width="704" height="489">
-          <img class="bestsellers-img-desktop best-title" src="./images/bestsellers/1-desktop.jpg" alt="The modern platform bed"  width="536" height="489">
-          <p class="bestsellers-text-img">The modern platform bed</p>
-          <p class="bestsellers-text">750$</p>
-        </div>
-        </li>
-        <div class="bestsellers-div">
-      <li class="bestsellers-li">
-            <img class="bestsellers-img-mob " src="./images/bestsellers/2-mob.jpg" alt="The Cozy Lounge Chair"  width="343" height="193">
-            <img class="bestsellers-img-tablet" src="./images/bestsellers/2-tabl.jpg" alt="The Cozy Lounge Chair" width="336" height="193">
-            <img class="bestsellers-img-desktop" src="./images/bestsellers/2-desktop.jpg" alt="The Cozy Lounge Chair" width="258" height="193">
-            <p class="bestsellers-text-img">The Cozy Lounge Chair</p>
-            <p class="bestsellers-text">230$</p>
-        </li>
-       <li class="bestsellers-li">
-              <img class="bestsellers-img-mob" src="./images/bestsellers/3-mob.jpg" alt="The industrial accent chair" width="343" height="193">
-              <img class="bestsellers-img-tablet" src="./images/bestsellers/3-tabl.jpg" alt="The industrial accent chair" width="336" height="193" >
-              <img class="bestsellers-img-desktop" src="./images/bestsellers/3-desktop.jpg" alt="The industrial accent chair" width="258" height="193">
-              <p class="bestsellers-text-img">The industrial accent chair</p>
-              <p class="bestsellers-text">250$</p>
-            </li>   
-<div class="bestsellers-mob-none">
-              <li class="bestsellers-li">
-                  <img class="bestsellers-img-tablet" src="./images/bestsellers/4-tabl.jpg" alt="The sleek stand" width="336" height="193">
-                  <img class="bestsellers-img-desktop" src="./images/bestsellers/4-desktop.jpg" alt="The sleek stand" width="258" height="193">
-                  <p class="bestsellers-text-img">The sleek stand</p>
-                  <p class="bestsellers-text">300$</p>
-              </li>
-                <li class="bestsellers-li">
-                  <img class="bestsellers-img-tablet" src="./images/bestsellers/5-tabl.jpg" alt="The minimalist sofa" width="336" height="193">
-                  <img class="bestsellers-img-desktop" src="./images/bestsellers/5-desktop.jpg" alt="The minimalist sofa" width="258" height="193" >
-                  <p class="bestsellers-text-img">The minimalist sofa</p>
-                  <p class="bestsellers-text">650$</p>
-                </li>
-</div>
-        </div>
-        </div>
-    </li>
-    </ul>
-    </section>
-    
+<section class="sellers" id="bestsellers">
+  <div class="container">
+    <h2 class="sellers-title">Bestsellers</h2>
+    <div class="sellers-wrap">
+      <div class="sellers-main-card">
+        <picture class="sellers-main-img">
+          <source srcset="./images/bestsellers/1-1x.jpg 1x, ./images/bestsellers/1-2x.jpg 2x"
+            media="(min-width:1440px)" />
+          <source srcset="./images/bestsellers/tablet-1-1x.jpg 1x, ./images/bestsellers/tablet-1-2x.jpg"
+            media="(min-width:768px)" />
+          <source srcset="./images/bestsellers/mod-1-1x.jpg 1x, ./images/bestsellers/mod-1-2x.jpg 2x"
+            media="(min-width:320px)" />
+          <img src="./images/bestsellers/1.jpg" alt="modern bed" width="704" />
+        </picture>
+        <h3 class="sellers-subtitle">The modern platform bed</h3>
+        <p class="sellers-price">750$</p>
+      </div>
+      <div class="sellers-card-wrap">
+        <ul class="sellers-list">
+          <li class="sellers-item">
+            <picture>
+              <source
+                srcset="./images/bestsellers/2-1x.jpg 1x, ./images/bestsellers/2-2x.jpg"
+                media="(min-width:1440px)" />
+              <source
+                srcset="./images/bestsellers/tablet-2-1x.jpg 1x, ./images/bestsellers/tablet-2-2x.jpg"
+                media="(min-width:768px)" />
+              <source
+                srcset="./images/bestsellers/mod-2-1x.jpg 1x, ./images/bestsellers/mod-2-2x.jpg 2x"
+                media="(min-width:320px)" />
+              <img src="./images/bestsellers/2.jpg" alt="The Cozy Lounge Chair" width="343" />
+            </picture>
+            <h3 class="sellers-subtitle">The Cozy Lounge Chair</h3>
+            <p class="sellers-price">230$</p>
+          </li>
+
+          <li class="sellers-item">
+            <picture>
+              <source
+                srcset="./images/bestsellers/3-1x.jpg 1x, ./images/bestsellers/3-2x.jpg"
+                media="(min-width:1440px)" />
+              <source
+                srcset="./images/bestsellers/tablet-3-1x.jpg 1x, ./images/bestsellers/tablet-3-2x.jpg"
+                media="(min-width:768px)" />
+              <source
+                srcset="./images/bestsellers/mod-3-1x.jpg 1x, ./images/bestsellers/mod-3-2x.jpg 2x"
+                media="(min-width:320px)" />
+              <img src="./images/bestsellers/3.jpg" alt="The industrial accent chair" width="343" />
+            </picture>
+            <h3 class="sellers-subtitle">The industrial accent chair</h3>
+            <p class="sellers-price">250$</p>
+          </li>
+
+          <li class="sellers-item hidden">
+            <picture>
+              <source
+                srcset="./images/bestsellers/4-1x.jpg 1x, ./images/bestsellers/4-2x.jpg"
+                media="(min-width:1440px)" />
+              <source
+                srcset="./images/bestsellers/tablet-4-1x.jpg 1x, ./images/bestsellers/tablet-4-2x.jpg"
+                media="(min-width:768px)" />
+              <img src="./images/bestsellers/4.jpg" alt="The sleek stand" width="343" />
+            </picture>
+            <h3 class="sellers-subtitle">The sleek stand</h3>
+            <p class="sellers-price">300$</p>
+          </li>
+
+          <li class="sellers-item hidden">
+            <picture>
+              <source
+                srcset="./images/bestsellers/5-1x.jpg 1x, ./images/bestsellers/5-2x.jpg"
+                media="(min-width:1440px)" />
+              <source
+                srcset="./images/bestsellers/tablet-5-1x.jpg 1x, ./images/bestsellers/tablet-5-2x.jpg"
+                media="(min-width:768px)" />
+              <img src="./images/bestsellers/5.jpg" alt="The minimalist sofa" width="343" />
+            </picture>
+            <h3 class="sellers-subtitle">The minimalist sofa</h3>
+            <p class="sellers-price">650$</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
     
