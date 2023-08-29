@@ -101,9 +101,7 @@
         padding: 100px 0;
         /* max-width: 768px; */
     }
-    .container {
-        padding: 0 32px;
-    }
+    
     .sub-title {
         text-align: start;
         font-size: 32px;
@@ -148,9 +146,8 @@
         padding: 100px 0;
         /* max-width: 1440px; */
     }
-    .container {
-        padding: 0 172px;
-    }
+   
+    
     .sub-container {
         gap: 100px;
         display: flex;
