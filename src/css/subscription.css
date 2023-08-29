@@ -47,6 +47,10 @@
 .sub-input:hover {
  border: 1px solid var(--blue-font, #0A224A);}
 
+ .sub-input:focus {
+    border: 1px solid var(--blue-font, #0A224A);}
+   
+
  .sub-input:hover not required {
     border: 1px solid var(--red, #E74A3B);}
 
