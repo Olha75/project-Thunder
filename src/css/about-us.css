@@ -1,173 +1,208 @@
 .about {
-    background-color: #ffffff;
+  background-color: var(--light-blue);
+  padding-top: 64px;
 }
 
+.about-container {
+  max-width: 373px;
+}
+/* .about-content {
+  background-color: var(--light-blue);
+  display: block;
+  width: 343px;
+  margin: 0 auto;
+  padding: 64px 16px;
+} */
+
 .about-content {
-    background-color: var(--light-blue);
-    display: block;
-    width: 343px;
-    margin: 0 auto;
+  margin-bottom: 64px;
+}
+
+.about-signature {
+  display: flex;
+  min-width: 124px;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.about-signature:before {
+  content: '';
+  background-color: var(--blue-font);
+  height: 1px;
+  width: 30px;
+  display: block;
+}
+
+.about-signature-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.about-title {
+  margin-bottom: 30px;
+  font-size: 28px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+/* .title {
+  font-size: 28px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  font-style: normal;
+} */
+
+.about-text {
+  /* font-size: 16px; */
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.about-stat-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-stat-item {
+  max-width: 170px;
+}
+
+.statistic {
+  /* width: 170px;
+  height: 75px; */
+  text-align: center;
+  font-size: 50px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.statistic-content {
+  /* width: 170px; */
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.about-us-picture {
+  display: flex;
+  justify-content: center;
+}
+
+/* @media screen and (max-width: 374px) {
+  .about-content {
+    width: 286px;
     padding: 64px 16px;
   }
+} */
 
-  .about-signature {
-    display: flex;
-    width: 124px;
-    align-items: center;
-    gap: 20px;
+@media screen and (min-width: 768px) {
+  /* .about {
+    max-width: 704px;
+    margin: 0 auto;
+  } */
+
+  .about {
+    background-color: #ffffff;
+    padding-top: 0;
+  }
+
+  .about-container {
+    max-width: 734px;
+  }
+
+  .about-content {
+    /* display: block;
+    width: 700px;
+    margin: 0 auto; */
+    background-color: var(--light-blue);
+    padding: 36px 64px;
     margin-bottom: 30px;
   }
-
-  .about-signature:before {
-    content: '';
-    background-color: black;
-    height: 1px;
-    width: 30px;
-    display: block;
-  }
-
-  .about-signature-text {
-    font-size: 16px;
-    line-height: 1.5;
-  }
-
   .about-title {
-    margin-bottom: 30px;
+    font-size: 32px;
+    line-height: 1.41;
   }
-
-  .title {
-    font-size: 28px;
-    line-height: 1.5;
-    text-transform: uppercase;
-    font-style: normal;
-  }
-
   .about-text {
-    font-size: 16px;
-     line-height: 1.5;
+    font-size: 18px;
   }
-
   .about-stat-list {
-    margin-top: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
+    /* display: flex; */
+    /* flex-wrap: nowrap; */
+    flex-direction: row;
+    gap: 33px;
+    /* justify-content: center;
+    align-items: center; */
   }
 
   .about-stat-item {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    gap: 14px;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .statistic {
-    width: 170px;
-    height: 75px;
-    text-align: center;
-    font-size: 50px;
-    line-height: 1.5;
-    text-transform: uppercase;
+    width: calc((576px - 66px) / 3);
   }
 
   .statistic-content {
-    width: 170px;
-    text-align: center;
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 18px;
   }
+}
 
-  .about-us-picture{
-  display: flex;
-justify-content: center;}
-
-  @media screen and (max-width: 374px) {
-    .about-content {
-      width: 286px;
-      padding: 64px 16px;
-    }
+@media screen and (min-width: 1440px) {
+  .about {
+    /* max-width: 1323px;
+    margin: 0 auto; */
+    /* padding: 100px 0; */
   }
-
-  @media screen and (min-width: 768px) {
-    .about {
-      max-width: 704px;
-      margin: 0 auto;
-    }
-    .about-content {
-      display: block;
-      width: 700px;
-      margin: 0 auto;
-      padding: 36px 64px;
-    
-    }
-    .title {
-      font-size: 32px;
-      line-height: 1.41;
-    }
-    .about-text {
-      font-size: 18px;
-    }
-    .about-stat-list {
-      display: flex;
-      flex-wrap: nowrap;
-      flex-direction: row;
-      gap: 33px;
-      justify-content: center;
-      align-items: center;
-    }
-    .statistic-content {
-      font-size: 18px;
-    }
+  .about-container {
+    max-width: 1350px;
+    display: flex;
+    /* flex-wrap: nowrap; */
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0 15px; */
   }
-
-  @media screen and (min-width: 1440px) {
-    .about {
-      max-width: 1323px;
-      margin: 0 auto;
-      /* padding: 100px 0; */
-    }
-    .about-container {
-      display: flex;
-      flex-wrap: nowrap;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0 15px;
-    }
-    .about-content {
-   
-        padding-top: 36px;
-        padding-bottom: 34px;
-        /* max-width: 760px; */
-        margin-bottom: 0 auto;
-    }
-    .title {
-      font-size: 32px;
-      line-height: 1.41;
-      /* color: var(--blue-font, #0A224A);
+  .about-content {
+    /* padding-top: 36px;
+    padding-bottom: 34px; */
+    max-width: 760px;
+    padding: 36px 69px;
+    margin-bottom: 0;
+  }
+  /* .title {
+    font-size: 32px;
+    line-height: 1.41;
+    color: var(--blue-font, #0A224A);
 font-family: Roboto;
 font-size: 32px;
 font-style: normal;
-font-weight: 400; */
-text-transform: uppercase;
-width: 622px;
-    }
-    .about-text {
-      font-size: 18px;
-    }
-    .about-stat-list {
-      display: flex;
-      flex-wrap: nowrap;
-      flex-direction: row;
-      gap: 33px;
-      justify-content: center;
-      align-items: center;
-    }
-    .statistic-content {
-      font-size: 18px;
-    }
+font-weight: 400;
+    text-transform: uppercase;
+    width: 622px;
+  } */
+  /* .about-text {
+    font-size: 18px;
+  } */
+  .about-stat-list {
+    /* display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 33px;
+    justify-content: center;
+    align-items: center; */
+
+    gap: 55px;
   }
+
+  .about-stat-item {
+    width: calc((622px - 110px) / 3);
+  }
+  /* .statistic-content {
+    font-size: 18px;
+  } */
+
+  .statistic {
+    margin-bottom: 20px;
+  }
+}
