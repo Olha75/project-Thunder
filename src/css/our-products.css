@@ -1,6 +1,6 @@
 .our-prod-container {
   border: solid 1px purple;
-  width: 734px;
+  max-width: 373px;
 }
 
 .our-prod-title {
@@ -59,7 +59,7 @@ ul.our-prod-list > li:first-child {
 
 @media screen and (min-width: 768px) {
   .our-prod-container {
-    width: 734px;
+    max-width: 734px;
   }
 
   .our-prod-title {
@@ -90,7 +90,7 @@ ul.our-prod-list > li:first-child {
 
 @media screen and (min-width: 1440px) {
   .our-prod-container {
-    width: 1350px;
+    max-width: 1350px;
   }
 
   .our-prod-list-item {
