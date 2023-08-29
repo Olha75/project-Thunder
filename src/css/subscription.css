@@ -51,7 +51,7 @@
     border: 1px solid var(--blue-font, #0A224A);}
    
 
- .sub-input:hover not required {
+ .sub-input:hover ::grammar-error {
     border: 1px solid var(--red, #E74A3B);}
 
 
@@ -105,19 +105,29 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    fill: transparent;
+    stroke: transparent;
     } 
 
-    .checkbox-container:checked + .sub-agree span {
+
+    .icon-pole-galochka:hover { 
+       stroke:  var(--blue-font, #0A224A);}
+
+
+
+
+    .checkbox-container:checked + .icon-pole-galochka span {
         background-color: var(--blue-font, #0A224A);
         border:none;
-        fill: var(--cloud,#F4F4FD);}
+        stroke: var(--cloud,#F4F4FD);}
 
 @media screen and (min-width: 1px) and (max-width: 374px) {
     .sub-input {
         width: 100%;
     }
 }
+
+
+
 
 @media screen and (min-width: 375px) {}
 
