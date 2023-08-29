@@ -5,7 +5,7 @@
 
 .footer-container {
     padding: 36px 16px 16px 16px;
-    background-color: #0a224a;
+    
 }
 
 
@@ -248,7 +248,7 @@ flex-direction: column;
     
 
     .footer-adress {
-        margin-bottom: 64px;
+        margin-bottom: 84px;
     }
 
     .footer-adress-list {
