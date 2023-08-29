@@ -35,14 +35,25 @@
   position: fixed;
   width: 100%;
   height: 100%;
-  top: 0;
+  top: -100%;
   left: 0;
   z-index: 10;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
   overflow: auto;
-  transition: left 0.3s ease;
+  transition: top 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.mob-menu.is-open {
+  opacity: 1;
+  top: 0;
+}
+.mob-menu.is-hidden {
+  top: 100%;
+  opacity: 0;
+  transition: top 0.9s ease-in-out, opacity 0.1s ease-in-out;
 }
 .mob-menu-item {
   color: var(--blue-font, #0a224a);
@@ -55,14 +66,27 @@
   background-color: transparent;
   margin-left: auto;
 }
-.mob-top-section {
+.mob-menu-container {
+  width: 100%;
+  background: var(--light-blue, #f7faff);
+  margin-bottom: 112px;
+}
+/* .mob-top-section {
   width: 100%;
   display: flex;
-  padding: 28px;
+  padding: 36px 16px;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 112px;
   background: var(--light-blue, #f7faff);
+} */
+.mob-top-section {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 36px 16px;
 }
 .close-menu-icon {
   width: 30px;
@@ -87,16 +111,15 @@
     max-width: 375px;
     margin: 0 auto;
   }
+  .mob-menu-container {
+  }
   .mob-top-section {
     max-width: 375px;
-    margin: 0 auto;
-    margin-bottom: 112px;
   }
 }
 @media screen and (min-width: 768px) {
   .nav-container {
     max-width: 768px;
-    margin: 0 auto;
   }
   .nav-menu {
     width: 100%;
@@ -118,6 +141,16 @@
     height: 16px;
     fill: var(--blue-font, #0a224a);
   }
+  .mob-menu-container {
+    width: 100%;
+    margin-bottom: 150px;
+  }
+  .mob-logo-icon {
+    width: 127px;
+    height: 16px;
+    fill: var(--blue-font, #0a224a);
+  }
+
   .mob-menu-list {
     display: flex;
     width: 100%;
@@ -133,9 +166,7 @@
   }
   .mob-top-section {
     max-width: 768px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 150px;
+    padding: 32px 28px;
   }
 }
 @media screen and (min-width: 1440px) {
