@@ -1,10 +1,8 @@
 .price-main-container {
-  border: solid 1px red;
   max-width: 373px;
 }
 
 .price-section {
-  border: solid 1px green;
   padding: 64px 0;
   background: #fff;
   margin: 0 auto;
