@@ -35,8 +35,7 @@
   position: fixed;
   width: 100%;
   height: 100%;
-  top: -100%;
-  left: 0;
+  top: 0;
   z-index: 10;
   background-color: #ffffff;
   display: flex;
@@ -44,16 +43,19 @@
   overflow: auto;
   transition: top 0.3s ease-in-out, opacity 0.3s ease-in-out;
   opacity: 0;
+  left: -100%; /* Вихідне положення меню за межами екрану */
+  transition: left 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 
 .mob-menu.is-open {
   opacity: 1;
   top: 0;
+  left: 0;
 }
 .mob-menu.is-hidden {
-  top: 100%;
+  left: 100%;
   opacity: 0;
-  transition: top 0.9s ease-in-out, opacity 0.1s ease-in-out;
+  transition: left 0.9s ease-in-out, opacity 0.1s ease-in-out;
 }
 .mob-menu-item {
   color: var(--blue-font, #0a224a);

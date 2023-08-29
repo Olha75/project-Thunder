@@ -19,7 +19,6 @@
   openMenuBtn.addEventListener('click', toggleMenu);
   closeMenuBtn.addEventListener('click', toggleMenu);
 
-  // Доданий обробник для посилань
   mobMenuLinks.forEach(link => {
     link.addEventListener('click', () => {
       mobileMenu.classList.remove('is-open');
