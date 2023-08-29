@@ -175,7 +175,7 @@ margin-bottom: 28px;}
         @media (min-device-pixel-ratio:2), 
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-          .hero{ background-image:
+          .hero .conteiner{ background-image:
             url(/images/hero/hero-desktop-2x.jpg);}}
         
         
