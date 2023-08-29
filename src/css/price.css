@@ -1,6 +1,13 @@
+.price-main-container {
+  border: solid 1px red;
+  max-width: 373px;
+}
+
 .price-section {
+  border: solid 1px green;
   padding: 64px 0;
   background: #fff;
+  margin: 0 auto;
 }
 
 .price-list {
@@ -57,6 +64,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .price-main-container {
+    max-width: 734px;
+  }
+
   .price-section {
     padding: 100px 0;
   }
@@ -75,6 +86,9 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .price-main-container {
+    max-width: 1126px;
+  }
   .price-list {
     max-width: 1096px;
   }

@@ -1,3 +1,8 @@
+.our-prod-container {
+  border: solid 1px purple;
+  width: 734px;
+}
+
 .our-prod-title {
   text-align: center;
   font-size: 28px;
