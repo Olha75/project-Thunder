@@ -56,15 +56,15 @@
 .sub-input:hover:invalid {
   border: 1px solid var(--red, #e74a3b);
 }
-/* .name-error-icon,
+.name-error-icon,
 .email-error-icon {
   fill: var(--red, #e74a3b);
   position: absolute;
   right: 20px;
   top: 50%;
   transform: translateY(-50%);
-  display: none;
-}
+  display: none;}
+
 
 .name-error:invalid,
 .email-error:invalid {
