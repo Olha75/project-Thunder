@@ -52,10 +52,9 @@
 .sub-input:focus {
   border: 1px solid var(--blue-font, #0a224a);
 }
-
-/* .sub-input:hover:invalid {
+ .sub-input:hover:invalid {
   border: 1px solid var(--red, #e74a3b);
-} */
+} 
 .name-error-icon,
 .email-error-icon {
   fill: var(--red, #e74a3b);
@@ -71,10 +70,6 @@
   color: var(--red, #e74a3b);
   border-color: var(--red, #e74a3b);
 }
-
-
- */
-
 
 .sub-input::placeholder {
   color: var(--grey, #d9d9d9);
